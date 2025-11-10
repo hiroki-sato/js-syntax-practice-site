@@ -87,3 +87,16 @@ h1 {
 .incorrect {
     color: #c0392b; /* 赤 */
 }
+
+/* ヒント表示エリアのスタイル */
+#hint-display {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fffaf0; /* やや黄色っぽい背景で目立たせる */
+    border: 1px dashed #f39c12; /* 点線の枠線 */
+    border-radius: 6px;
+    color: #333;
+    min-height: 1.5em; /* 高さを確保 */
+}
